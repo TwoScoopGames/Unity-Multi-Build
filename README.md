@@ -1,6 +1,9 @@
 # Unity Multi Build Script
 v 0.1.0
 
+![multi Build in action!](docs/unity-multi-build-in-action.gif)
+
+
 Create builds from the terminal for:
 
 - Android
