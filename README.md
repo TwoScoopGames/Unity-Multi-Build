@@ -17,6 +17,8 @@ All with one terminal command: `./build All path/to/project`
 
 ## Setup
 
+** Do not have the project open in Unity, or the same copy of Unity you are using to run the script open or the script will not work **
+
 Change the `/path/to/unity` on line 3 of `build.sh` to the correct path for your situation.
 
 Example for Mac:
@@ -47,7 +49,10 @@ Run the build.sh script and give it the platform you desire to build as the firs
   - `./build All path/to/project`
 
 
+## Caveats
 
+1. Unity cannot be running when the script is started
+2. If you have multiple copies of Unity on your computer none of them can have the project you are attempting to build open
 
 ## Contributing
 
@@ -56,6 +61,8 @@ Check the [Github issues](https://github.com/TwoScoopGames/Unity-Build-Scripts/i
 
 ## Help wanted
 
+- Fixes or possible solutions to caveats 1 & 2.
+- Graceful fail / nice errors for common possible mistakes.
 - Windows - some way to run this on Windows would be great and make it cross platform!
 - Additional Platforms?
 - Way to have Android and iOS builds go to an attached phone/tablet via a terminal command.
