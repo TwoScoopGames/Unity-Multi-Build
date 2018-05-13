@@ -61,7 +61,7 @@ Run the build.sh script and give it the platform you desire to build as the firs
 Unity Project
    Builds
       Android
-         project-name-YYYY-MM-DD-HH-MM-SS.apk
+        project-name-YYYY-MM-DD-HH-MM-SS.apk
 
       iOS
         project-name-YYYY-MM-DD-HH-MM-SS
