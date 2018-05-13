@@ -54,6 +54,33 @@ Run the build.sh script and give it the platform you desire to build as the firs
 1. Unity cannot be running when the script is started
 2. If you have multiple copies of Unity on your computer none of them can have the project you are attempting to build open
 
+
+## Folder Structure
+
+```
+Unity Project
+   Builds
+      Android
+         project-name-YYYY-MM-DD-HH-MM-SS.apk
+
+      iOS
+        project-name-YYYY-MM-DD-HH-MM-SS
+
+      Linux
+        project-name-YYYY-MM-DD-HH-MM-SS
+      Mac
+        project-name-YYYY-MM-DD-HH-MM-SS.app
+
+      WebGL
+        project-name-YYYY-MM-DD-HH-MM-SS
+
+      Win
+        project-name-YYYY-MM-DD-HH-MM-SS
+
+```
+
+
+
 ## Contributing
 
 Please do not hesitate to submit pull requests, I would love this to be a community effort.
