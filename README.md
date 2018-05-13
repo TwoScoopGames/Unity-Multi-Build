@@ -20,7 +20,7 @@ All with one terminal command: `./build All path/to/project`
 
 ## Setup
 
-** Do not have the project open in Unity, or the same copy of Unity you are using to run the script open or the script will not work **
+**Do not have the project open in Unity, or the same copy of Unity you are using to run the script open or the script will not work**
 
 Change the `/path/to/unity` on line 3 of `build.sh` to the correct path for your situation.
 
@@ -71,6 +71,7 @@ Unity Project
 
       Linux
         project-name-YYYY-MM-DD-HH-MM-SS
+
       Mac
         project-name-YYYY-MM-DD-HH-MM-SS.app
 
