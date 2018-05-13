@@ -2,8 +2,8 @@
 
 unity="/path/to/unity"
 
-project="$2"
 platform="$1"
+project="${2%/}"
 gamename="${project##*/}"
 date=`date '+%Y-%m-%d-%H-%M-%S'`
 filename="$gamename-$date"

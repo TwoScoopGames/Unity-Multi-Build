@@ -1,5 +1,5 @@
 # Unity Multi Build Script
-v 0.1.0
+v 0.1.1
 
 ![multi Build in action!](docs/unity-multi-build-in-action.gif)
 
